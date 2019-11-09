@@ -1,4 +1,4 @@
-package com.cherish.domain;
+package com.banyuan.tank.domain;
 
 import java.util.Date;
 

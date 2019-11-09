@@ -1,6 +1,6 @@
-package com.cherish.mapper;
+package com.banyuan.tank.mapper;
 
-import com.cherish.domain.Education;
+import com.banyuan.tank.domain.Education;
 
 import java.util.List;
 

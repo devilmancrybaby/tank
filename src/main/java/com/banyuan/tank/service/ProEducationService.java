@@ -1,8 +1,8 @@
-package com.cherish.service;
+package com.banyuan.tank.service;
 
 
-import com.cherish.domain.Education;
-import com.cherish.mapper.EducationMapper;
+import com.banyuan.tank.domain.Education;
+import com.banyuan.tank.mapper.EducationMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;

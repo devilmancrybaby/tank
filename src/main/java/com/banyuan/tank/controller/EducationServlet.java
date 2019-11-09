@@ -1,7 +1,7 @@
-package com.cherish.controller;
+package com.banyuan.tank.controller;
 
-import com.cherish.domain.Education;
-import com.cherish.service.ProEducationService;
+import com.banyuan.tank.domain.Education;
+import com.banyuan.tank.service.ProEducationService;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

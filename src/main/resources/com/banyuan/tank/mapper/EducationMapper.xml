@@ -1,0 +1,13 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--IuserDao 调用接口实现方法-->
+<mapper namespace="com.banyuan.tank.mapper.EducationMapper" >
+    <!--    &lt;!&ndash;查询语句&ndash;&gt;-->
+    <!--    <select id="findAll" resultType="com.banyuan.tank.domain.Educationation">-->
+    <!--        select * from education_experience-->
+    <!--    </select>-->
+    <insert id="insertUser" parameterType="com.banyuan.tank.domain.Education">
+        INSERT INTO education_experience(school,enrollment_year,graduate_year,graduate,major) VALUES(#{school},#{enrollment_year},#{graduate_year},#{graduate},#{major})
+    </insert>
+</mapper>

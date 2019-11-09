@@ -1,1 +1,5 @@
 *.bak
+*.iml
+.DS_Store
+*.classes
+target
