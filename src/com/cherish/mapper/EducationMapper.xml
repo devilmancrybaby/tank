@@ -1,0 +1,13 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--IuserDao 调用接口实现方法-->
+<mapper namespace="com.cherish.mapper.EducationMapper" >
+    <!--    &lt;!&ndash;查询语句&ndash;&gt;-->
+    <!--    <select id="findAll" resultType="com.cherish.domain.Educationation">-->
+    <!--        select * from education_experience-->
+    <!--    </select>-->
+    <insert id="insertUser" parameterType="com.cherish.domain.Education">
+        insert into education_experience(school,enrollment_year,graduate_year,graduate,major) values(#{school},#{enrollment_year},#{graduate_year},#{graduate},#{major})
+    </insert>
+</mapper>
